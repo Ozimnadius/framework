@@ -1,0 +1,33 @@
+//LIBS
+@import "../node_modules/normalize.css/normalize";
+@import "../node_modules/swiper/swiper-bundle";
+
+
+//USER
+//fonts
+$font: 'Gilroy', Arial, sans-serif;
+//colors
+$text: #4D4D4D;
+$bg: #ffffff;
+//another
+$font-size: 16px;
+$transition: 0.3s;
+//layout
+@import "css/mixins";
+@import "css/fonts";
+@import "css/smart-grid";
+@import "css/adjustment";
+@import "css/common";
+
+
+//BLOCKS
+@import "../blocks/default/header/header";
+@import "../blocks/default/footer/footer";
+
+
+
+.debug {
+  //@include debug(rgba(0,0,0,0.3), 1px solid red);
+  //z-index: 100;
+  //top: 0;
+}
