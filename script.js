@@ -9546,5 +9546,5 @@ const jsTools = {
 };
 //index.js
 (function(){
-
+    console.log('INDEX.JS');
 }());

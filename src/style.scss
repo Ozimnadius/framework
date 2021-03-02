@@ -13,18 +13,18 @@ $bg: #ffffff;
 $font-size: 16px;
 $transition: 0.3s;
 //layout
-@import "css/mixins";
-@import "css/fonts";
-@import "css/smart-grid";
-@import "css/adjustment";
-@import "css/common";
+@import "default/css/mixins";
+@import "default/css/fonts";
+@import "default/css/smart-grid";
+@import "default/css/adjustment";
+@import "default/css/common";
 
 
 //BLOCKS
-@import "blocks/header/header";
-@import "blocks/nav/nav";
+@import "default/blocks/header/header";
+@import "default/blocks/nav/nav";
 @import "pages/index/index";
-@import "blocks/footer/footer";
+@import "default/blocks/footer/footer";
 
 
 
