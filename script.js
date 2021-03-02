@@ -9551,3 +9551,7 @@ const jsTools = {
         }
     }
 };
+//index.js
+(function(){
+
+}());

@@ -1163,6 +1163,14 @@ input, textarea {
   background: #4D4D4D;
 }
 
+.nav {
+  display: flex;
+}
+.nav__item {
+  color: #ffffff;
+  margin: 10px;
+}
+
 .footer {
   height: 200px;
   background: dimgrey;

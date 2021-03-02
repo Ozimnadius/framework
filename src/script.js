@@ -3,3 +3,4 @@
 
 //USER
 // @prepros-append js/common.js
+// @prepros-append pages/index/index.js

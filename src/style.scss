@@ -21,8 +21,9 @@ $transition: 0.3s;
 
 
 //BLOCKS
-@import "../blocks/default/header/header";
-@import "../blocks/default/footer/footer";
+@import "blocks/header/header";
+@import "blocks/nav/nav";
+@import "blocks/footer/footer";
 
 
 
