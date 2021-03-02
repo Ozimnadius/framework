@@ -9516,7 +9516,7 @@
 // common.js
 const jsTools = {
     getNumber: function (str) {
-        return parseInt(str.replace(/\s/g, ''));
+        return parseInt(str.replace(/[^\d]/g, ''));
     },
     getWindowWidth: function () {
         return document.documentElement.clientWidth;
@@ -9542,13 +9542,6 @@ const jsTools = {
         kw = i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + thousands_sep);
         kd = (decimals ? dec_point + Math.abs(number - i).toFixed(decimals).replace(/-/, 0).slice(2) : "");
         return km + kw + kd;
-    },
-    imagesResize: function (src) {
-        let img = document.querySelectorAll('img');
-
-        for (let i=0;i<img.length;i++){
-            img[i].src = src;
-        }
     }
 };
 //index.js
