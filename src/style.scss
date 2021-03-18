@@ -4,15 +4,7 @@
 
 
 //USER
-//fonts
-$font: 'Gilroy', Arial, sans-serif;
-//colors
-$text: #4D4D4D;
-$bg: #ffffff;
-//another
-$font-size: 16px;
-$transition: 0.3s;
-//layout
+@import "default/css/variables";
 @import "default/css/mixins";
 @import "default/css/fonts";
 @import "default/css/smart-grid";
