@@ -1,17 +1,21 @@
 const smartgrid = require('smart-grid');
 
-smartgrid('./src/css', {
+smartgrid('./src/default/css', {
     mobileFirst: false,
     columns: 24,
     offset: "20px",
     outputStyle: "scss",
     container: {
-        maxWidth: "1200px",
+        maxWidth: "1800px",
         fields: "20px",
     },
     breakPoints: {
+        xlg: {
+            width: "1919.98px",
+            fields: "20px",
+        },
         lg: {
-            width: "1199.98px",
+            width: "1279.98px",
             fields: "20px",
         },
         md: {
